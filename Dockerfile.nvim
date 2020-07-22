@@ -1,0 +1,5 @@
+from alpine
+run apk update
+run apk add neovim
+entrypoint nvim
+cmd nvim
